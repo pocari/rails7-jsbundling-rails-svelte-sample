@@ -1,0 +1,4 @@
+<h1>hoge, piyo</h1>
+
+<div id="hello" app-data="<%= { piyora: 'piyora_valuexx', hogera: 'hogera_valuexx'}.to_json %>" />
+<%= javascript_include_tag "entrypoint/hello", "data-turbo-track": "reload", defer: true %>
